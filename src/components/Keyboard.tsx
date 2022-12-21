@@ -50,19 +50,19 @@ export default function Keyboard() {
     switch (operation) {
       case '+':
         clearScreen();
-        setResult(parseInt(fOperand) + parseInt(sOperand));
+        setResult(parseFloat(fOperand) + parseFloat(sOperand));
         break;
       case '-':
         clearScreen();
-        setResult(parseInt(fOperand) - parseInt(sOperand));
+        setResult(parseFloat(fOperand) - parseFloat(sOperand));
         break;
       case '*':
         clearScreen();
-        setResult(parseInt(fOperand) * parseInt(sOperand));
+        setResult(parseFloat(fOperand) * parseFloat(sOperand));
         break;
       case '/':
         clearScreen();
-        setResult(parseInt(fOperand) / parseInt(sOperand));
+        setResult(parseFloat(fOperand) / parseFloat(sOperand));
         break;
       default:
         clearScreen();
