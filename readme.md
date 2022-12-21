@@ -24,5 +24,4 @@ Use `npm i` to install all the required dependencies and run the app using
 ```shell
 	npx react-native run-android
 ```
-
-The compiled apks might be included in the repo, but I'm not sure I'll add it in. Although, I will include the AAB files to quickly install and view it.
+Just follow React Native Docs for building apks and running it on iOS Devices
