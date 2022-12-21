@@ -18,10 +18,10 @@ Next target, build a complete full stack application using React Native and Fire
 
 This project uses React Native running on TypeScript. To get started, clone this repository using 
 ```shell
-	git clone https://github.com/BladedShip/RaeactNative-Calculator.git
+git clone https://github.com/BladedShip/RaeactNative-Calculator.git
 ```
 Use `npm i` to install all the required dependencies and run the app using
 ```shell
-	npx react-native run-android
+npx react-native run-android
 ```
 Just follow React Native Docs for building apks and running it on iOS Devices
